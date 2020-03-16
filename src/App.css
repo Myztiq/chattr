@@ -1,0 +1,44 @@
+body, html, #root, .navbar {
+    background-color: #cdcdcd;
+}
+.myCard{
+    width: 330px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    position: relative;
+}
+
+.foot {
+    position: absolute;
+    bottom: 2px;
+    z-index: 1;
+    color: white;
+    left: 5px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.hover {
+    display: none;
+}
+
+.card:hover .hover {
+    position: absolute;
+    display: block;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.2);
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+
+.wrapper {
+    margin: 0px 10px;
+}
