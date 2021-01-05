@@ -12,4 +12,4 @@ jobs:
               uses: Myztiq/github-assign@0.0.6
               with:
                   repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  assignees: Myztiq, Myztiq
+                  assignees: Myztiq, postazure
