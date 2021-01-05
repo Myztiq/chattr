@@ -11,6 +11,8 @@
 
   2. Make sure to set firebase read/write rules to `true` in your firebase dashboard.
   ```json
+  
+  
     {
       "rules": {
         ".read": true,
