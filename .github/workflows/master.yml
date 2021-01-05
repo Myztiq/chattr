@@ -9,7 +9,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: 'Weekly auto assign code buddies'
-              uses: Myztiq/github-assign@0.0.3
+              uses: Myztiq/github-assign@0.0.4
               with:
                   repo-token: ${{ secrets.GITHUB_TOKEN }}
                   assignees: Myztiq, Myztiq
