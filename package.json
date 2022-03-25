@@ -14,7 +14,7 @@
     "react-use-localstorage": "^3.4.1"
   },
   "devDependencies": {
-    "electron": "^1.6.11",
+    "electron": "^13.6.6",
     "foreman": "^2.0.0",
     "react-scripts": "1.0.7"
   },
